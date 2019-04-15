@@ -1,7 +1,7 @@
 {
   "name": "mickey-gulp-4.0",
   "version": "1.0.0",
-  "description": "this is a demo project",
+  "description": "this is a gulp-4.0 project",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
