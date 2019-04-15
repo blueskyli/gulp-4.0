@@ -1,0 +1,14 @@
+.main {
+  width: 100px;
+  height: 100px;
+  color: red;
+  background-image: url("../images/loginbg.png");
+  font-size: 16px; }
+
+.testing {
+  width: 71.42857%; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

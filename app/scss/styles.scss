@@ -1,0 +1,12 @@
+$width:100px;
+.main{
+    width:$width;
+    height: $width;
+    color: red;
+    background-image: url("../images/loginbg.png");
+    font-size: 16px;
+}
+.testing {
+    width: percentage(5/7);
+}
+.flex {display:flex}
