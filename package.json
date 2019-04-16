@@ -1,6 +1,6 @@
 {
   "name": "mickey-gulp-4.0",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "this is a gulp-4.0 project",
   "main": "gulpfile.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "gulp"
   ],
   "author": "mickey007@163.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
