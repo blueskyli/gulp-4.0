@@ -11,14 +11,14 @@ https://blog.csdn.net/guang_s/article/details/84664769
 https://blog.csdn.net/guang_s/article/details/84675106
 http://www.cnblogs.com/caoruichun/p/10540213.html
 ```
-## 环境安装
+## npm环境检查
 ```
 If they are not installed, follow the instructions here.
 npm install --global gulp-cli
 npm --version
 npx --version
 ```
-## 创建项目
+## 初始化新项目
 ```
 npx mkdirp my-project
 cd my-project
@@ -30,9 +30,15 @@ npm install --save-dev gulp
 gulp
 ```
 
-## 编写项目文档
+## 下载地址
+https://github.com/blueskyli/gulp-4.0/releases/
 
-* npm i gitbook-cli -g 
-* gitbook init
-* 编写SUMMARY.md
-* gitbook build
+## 编写文档
+
+- npm i gitbook-cli -g 
+- 编写SUMMARY.md
+- gitbook init   生成目录
+- gitbook build  生成文档
+
+## 交流提问
+- 提问： https://github.com/blueskyli/gulp-4.0/issues
