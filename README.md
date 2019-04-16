@@ -29,3 +29,10 @@ npm install --save-dev gulp
 //Test it To run multiple tasks, you can use gulp <task> <othertask>
 gulp
 ```
+
+## 编写项目文档
+
+* npm i gitbook-cli -g 
+* gitbook init
+* 编写SUMMARY.md
+* gitbook build

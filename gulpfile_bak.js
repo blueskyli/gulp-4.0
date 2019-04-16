@@ -21,7 +21,7 @@ const plugins = require('gulp-load-plugins')(); //这是一个用于自动加载
 //const gulpif = require('gulp-if')//条件判断
 
 //配置路径
-const baseUrl = './app/';
+const baseUrl = './src/';
 const distUrl = './dist/';
 const configUrl = {
     file: {
@@ -123,7 +123,7 @@ gulp.task('html1', async () => {
 
 //html压缩
 gulp.task('html', async () => {
-    await gulp.src(['./app/index.html','./app/views/*.html'],{base: './app'})
+    await gulp.src(['./src/index.html','./src/views/*.html'],{base: './src'})
         .pipe(htmlmin({
             removeComments: true,//清除HTML注释
             collapseWhitespace: true,//压缩HTML
@@ -153,7 +153,7 @@ gulp.task('revAll', function () {
 
 //拷贝不需要打包的文件
 gulp.task('copy', async () => {
-    await gulp.src(['./app/fonts/*','./app/libs/*'],{base: './app'})
+    await gulp.src(['./src/fonts/*','./src/libs/*'],{base: './src'})
         .pipe(gulp.dest('./dist'));
 })
 

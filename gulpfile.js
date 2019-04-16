@@ -16,7 +16,7 @@ const fileinclude = require('gulp-file-include');
 const connect = require('gulp-connect');
 
 //配置路径
-const baseUrl = './app/';
+const baseUrl = './src/';
 const distUrl = './dist/';
 const tplUrl = './tpl/';
 const configUrl = {
