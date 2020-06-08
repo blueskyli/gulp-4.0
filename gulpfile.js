@@ -125,8 +125,10 @@ const watchs = () => {
     });
 }
 
+//执行模板文件生成
 exports.file = file;
 exports.clean = clean;
+exports.cleanHtml = cleanHtml;
 
 //启动项目
 exports.default = watchs;
